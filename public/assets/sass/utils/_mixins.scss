@@ -1,0 +1,51 @@
+@mixin padding-10 {
+    padding: 10px !important;
+}
+
+@mixin element-block-top {
+    border: 2px solid $primary;
+    border-radius: 10px;
+    background: $white !important;
+}
+
+@mixin display-inline {
+    display: inline;
+}
+
+@mixin display-none {
+    display: none !important;
+}
+
+@mixin font-size {
+    font-size: 20px !important;
+}
+
+@mixin position-relative {
+    position: relative !important;
+}
+
+@mixin element-title {
+    font-weight: 900;
+    color: #EEEEEE;
+    font-size: 2em;
+    white-space: nowrap;
+    position: absolute;
+    left: 0;
+    line-height: 1;
+    letter-spacing: 1rem;
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+    font-family: AlfredoHeavy;
+}
+
+@mixin title-h1 {
+    font-family: AlfredoHeavy;
+    color: #3399cc;
+    font-weight: 900;
+    font-size: 3.4375em;
+    position: relative;
+    display: block;
+    z-index: 5;
+    line-height: 1.2;
+}

@@ -1,0 +1,55 @@
+.detail-coach {
+    .title-1 {
+        font-size: 3.4375rem;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .second-cicle {
+        width           : 643px;
+        height          : 643px;
+        // margin: -839px auto 0 95px;
+        color           : #ffffff;
+        background-color: #555c66;
+        border-radius   : 50%;
+        left            : 65px;
+        position        : relative;
+    }
+
+    .fisrt-cicle {
+        width           : 180px;
+        height          : 180px;
+        margin          : -790px 267px 670px auto;
+        color           : #111111;
+        background-color: #ccff00;
+        border-radius   : 50%;
+        position        : relative;
+        top             : 230px;
+        left            : -50px;
+    }
+
+    .text-2 {
+        line-height: 2;
+        font-size  : 1.25rem;
+        margin     : 0;
+    }
+
+    .content-text{
+        position: relative;
+        top     : -209px;
+    }
+    .section-image {
+
+        img {
+            border-radius        : 50% !important;
+            width                : 587px;
+            height               : 587px;
+            background-position  : 50% 50%;
+            //margin             : -610px auto 0 0;
+            position             : absolute;
+            top                  : 15px;
+        }
+    }
+}

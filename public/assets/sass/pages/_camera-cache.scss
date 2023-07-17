@@ -1,0 +1,18 @@
+.camera-cache {
+    &__content {
+        .sous-menu {
+            a {
+                font-weight: bold;
+                color: $primary !important;
+                text-decoration: underline !important;
+                &:hover {
+                    color: $white !important;
+                }
+            }
+            i {
+                color: $white;
+            }
+        }
+        .zone-3 {}
+    }
+}

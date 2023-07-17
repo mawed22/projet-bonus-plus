@@ -1,0 +1,132 @@
+.blog-top__content {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .blog-top__content {
+    flex-direction: column !important;
+    display: flex;
+  }
+  .blog-top__content .ms-3 {
+    margin-left: 0px !important;
+  }
+}
+
+.top-blog {
+  /* MEDIA QUERIES */
+}
+.top-blog a {
+  color: inherit;
+}
+.top-blog .card {
+  opacity: 1;
+  background-image: linear-gradient(rgba(6, 3, 21, 0.5), rgba(6, 3, 21, 0.5));
+  height: auto;
+  width: auto;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  transition: all, var(--transition-time);
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+.top-blog .card:hover {
+  transform: rotate(0);
+}
+.top-blog .card h1 {
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+.top-blog .card p {
+  font-size: 0.75em;
+  font-family: "Open Sans";
+  margin-top: 0.5em;
+  line-height: 2em;
+}
+.top-blog .card .tags {
+  display: flex;
+}
+.top-blog .card .tags .tag {
+  font-size: 15px;
+  border-radius: 0.3rem;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  line-height: 1.5em;
+  transition: all, var(--transition-time);
+}
+.top-blog .card:hover .tags .tag {
+  background: var(--color);
+  color: white;
+}
+.top-blog .card .date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75em;
+  padding: 1em;
+  line-height: 1em;
+  opacity: 0.8;
+}
+.top-blog .card:hover:before,
+.top-blog .card:hover:after {
+  transform: scale(1);
+}
+.top-blog .card-grid-space .num {
+  font-size: 3em;
+  margin-bottom: 1.2rem;
+  margin-left: 1rem;
+}
+.top-blog .info {
+  font-size: 1.2em;
+  display: flex;
+  padding: 1em 3em;
+  height: 3em;
+}
+.top-blog .info img {
+  height: 3em;
+  margin-right: 0.5em;
+}
+.top-blog .info h1 {
+  font-size: 1em;
+  font-weight: normal;
+}
+@media screen and (max-width: 1285px) {
+  .top-blog .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 900px) {
+  .top-blog .cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .top-blog .info {
+    justify-content: center;
+  }
+  .top-blog .card-grid-space .num {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .top-blog .cards-wrapper {
+    padding: 4rem 2rem;
+  }
+  .top-blog .card {
+    max-width: calc(100vw - 4rem);
+  }
+}
+@media screen and (max-width: 450px) {
+  .top-blog .info {
+    display: block;
+    text-align: center;
+  }
+  .top-blog .info h1 {
+    margin: 0;
+  }
+}

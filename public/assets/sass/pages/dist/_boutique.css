@@ -1,0 +1,95 @@
+.boutique-top a {
+  width: 216px !important;
+}
+.boutique-top__content {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .boutique-top__content {
+    flex-direction: column !important;
+    display: flex;
+  }
+  .boutique-top__content .ms-3 {
+    margin-left: 0px !important;
+  }
+}
+
+.boutique .row-content-produit {
+  display: flex;
+  overflow-y: hidden;
+}
+.boutique .line {
+  height: 1px;
+  background-color: #EEEEEE;
+  width: 100%;
+  margin: 35px 0px;
+}
+.boutique .card {
+  width: 650px;
+  margin: auto;
+}
+.boutique .user-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.boutique .fa-star.active {
+  color: #E91E63;
+}
+.boutique .btn-pink {
+  background-color: #E91E63;
+  color: #fff;
+  height: 70px;
+  padding: 20px 30px;
+  margin-top: 15px;
+}
+.boutique .btn-pink:hover {
+  background-color: #D81B60;
+}
+.boutique .image-bg {
+  width: 400px;
+}
+.boutique .fit-image {
+  object-fit: cover;
+  width: 100%;
+}
+.boutique .prod-pic {
+  width: 80px;
+  height: 100px;
+  cursor: pointer;
+}
+.boutique .prod-bg {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.boutique .fat-img {
+  width: 94px;
+  height: 100px;
+}
+.boutique .more {
+  width: 19.5%;
+  height: 110px;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+@media screen and (max-width: 677px) {
+  .boutique .card {
+    width: 100%;
+    margin: auto;
+  }
+  .boutique .btn-pink {
+    width: 100%;
+    height: 40px;
+    padding: 6px 30px;
+  }
+  .boutique .prod-bg {
+    width: 33%;
+    height: 110px;
+    background-color: #E0E0E0;
+  }
+  .boutique .more {
+    width: 66%;
+  }
+}

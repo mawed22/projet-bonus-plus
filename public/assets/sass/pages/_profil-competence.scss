@@ -1,0 +1,115 @@
+.profil-competence {
+}
+.title-info-cv-premium {
+    position: absolute !important;
+    background: white;
+    color: $black;
+    z-index: 10;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.block-freelance-temps-plein{
+    .card{
+        border-radius: 50%;
+        background: linear-gradient($primary, $secondary) !important;
+        h6{
+            color: $white;
+            font-weight: 800;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .title-info-cv-premium {
+        position: absolute !important;
+        background: white;
+        color: $black;
+        z-index: 10;
+        cursor: pointer;
+        border-radius: 25px;
+        font-size: 11px;
+        padding: 2px !important;
+    }
+}
+
+.clignote {
+    color: green;
+    animation: clignote 2s linear infinite;
+}
+
+@keyframes clignote {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.date {
+            font-size: 11px
+        }
+        
+        .comment-text {
+            font-size: 12px
+        }
+        
+        .fs-12 {
+            font-size: 12px
+        }
+        
+        .download{
+            font-weight: 800;
+        }
+
+        .shadow-none {
+            box-shadow: none
+        }
+        
+        .name {
+            color: $primary
+        }
+        
+        .cursor:hover {
+            color: $primary
+        }
+        
+        .cursor {
+            cursor: pointer
+        }
+        
+        .textarea {
+            resize: none
+        }
+        
+        .fa-facebook {
+            color: #3b5999
+        }
+        
+        .fa-twitter {
+            color: #55acee
+        }
+        
+        .fa-linkedin {
+            color: #0077B5
+        }
+        
+        .fa-instagram {
+            color: #e4405f
+        }
+        
+        .fa-dribbble {
+            color: #ea4c89
+        }
+        
+        .fa-pinterest {
+            color: #bd081c
+        }
+        
+        .fa {
+            cursor: pointer
+        }

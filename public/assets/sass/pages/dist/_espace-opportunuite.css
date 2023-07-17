@@ -1,0 +1,121 @@
+.espace-opportunuite-0 .w-30 {
+  width: 35%;
+  height: auto;
+}
+.espace-opportunuite-0 .bloc-2 {
+  background-image: linear-gradient(rgba(6, 3, 21, 0.5), rgba(6, 3, 21, 0.5)), url("../../../assets/images/bonus.jpg");
+  background-color: #184e8e;
+  padding-bottom: 80px;
+  font-family: "Source Sans Pro", sans-serif;
+  height: 450px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.espace-opportunuite-0 .bloc-absolute {
+  position: absolute;
+  height: 221px;
+  margin-top: -83px;
+  border-top-right-radius: 25px;
+}
+.espace-opportunuite-0 h1 {
+  text-align: center;
+  color: #333333;
+}
+.espace-opportunuite-0 .cardcontainer {
+  width: auto;
+  height: auto;
+  background-color: white;
+}
+.espace-opportunuite-0 .photo {
+  height: 300px;
+  width: 100%;
+}
+.espace-opportunuite-0 .photo img {
+  height: 100%;
+  width: 100%;
+}
+.espace-opportunuite-0 .txt1 {
+  margin: auto;
+  text-align: center;
+  font-size: 17px;
+}
+.espace-opportunuite-0 .content {
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.espace-opportunuite-0 .photos {
+  width: 90px;
+  height: 30px;
+  background-color: #E74C3C;
+  color: white;
+  position: relative;
+  top: -30px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.espace-opportunuite-0 .txt4 {
+  font-size: 20px;
+}
+.espace-opportunuite-0 .txt5 {
+  position: relative;
+  color: #E74C3C;
+  font-size: 18;
+}
+.espace-opportunuite-0 .txt2 {
+  position: relative;
+  top: 10px;
+}
+@keyframes move1 {
+  0% {
+    height: 300px;
+  }
+  100% {
+    height: 200px;
+  }
+}
+.espace-opportunuite-0 .footer {
+  width: 80%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  position: relative;
+  top: -15px;
+}
+.espace-opportunuite-0 .btn {
+  position: relative;
+  top: 20px;
+}
+.espace-opportunuite-0 #heart {
+  cursor: pointer;
+}
+.espace-opportunuite-0 .like {
+  float: right;
+  font-size: 22px;
+  position: relative;
+  top: 20px;
+  color: #333333;
+}
+.espace-opportunuite-0 .fa-gratipay {
+  margin-right: 10px;
+  transition: 0.5s;
+}
+.espace-opportunuite-0 .fa-gratipay:hover {
+  color: #E74C3C;
+}
+.espace-opportunuite-0 .txt3 {
+  color: gray;
+  position: relative;
+  top: 18px;
+  font-size: 14px;
+}
+.espace-opportunuite-0 .comments {
+  float: right;
+  cursor: pointer;
+}
+.espace-opportunuite-0 .fa-clock, .espace-opportunuite-0 .fa-comments {
+  margin-right: 7px;
+}

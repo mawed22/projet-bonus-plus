@@ -1,0 +1,30 @@
+.face-camera-top {
+    .height-80 {
+        height: 80px;
+    }
+    .col-md-3 {
+        padding-right: 0 !important;
+    }
+    .col-md-9 {
+        padding-left: 0 !important;
+    }
+    .logo {
+        width: 100px;
+    }
+    .zone-1 {
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .zone-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .zone-3 {
+        border: 2px solid blanchedalmond;
+    }
+}
+
+.face-camera {}

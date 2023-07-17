@@ -1,0 +1,39 @@
+.nous {
+    &__content {
+        &--block-1 {
+            .nav-nous .active {
+                background: $secondary !important;
+                color: white;
+            }
+            // ul li .active {
+            //     background: $secondary !important;
+            //     color: white;
+            // }
+        }
+        &--block-2 {
+            border: 2px solid $primary;
+            height: 100%;
+            &--bonus {
+                @media (max-width: 767px) {
+                    margin-top: 5px !important;
+                    .img-media {
+                        margin-right: 0 !important;
+                    }
+                }
+            }
+            @media (max-width: 767px) {
+                margin-top: 5px !important;
+            }
+        }
+        @media (max-width: 767px) {
+            margin-top: 0px !important;
+        }
+    }
+    .equipe {
+        &__content-1 {
+            p {
+                line-height: 1;
+            }
+        }
+    }
+}
